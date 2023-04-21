@@ -13,8 +13,8 @@ module "openstack" {
   config_version = "12.3.0"
 
   cluster_name = "icg2023"
-  domain       = "calculquebec.cloud"
-  image        = "Rocky-8.6-x64-2022-07"
+  domain       = "ace-net.training"
+  image        = "Rocky-8.7-x64-2023-02"
 
   instances = {
     mgmt   = { type = "p4-6gb", tags = ["puppet", "mgmt", "nfs"], count = 1 }
