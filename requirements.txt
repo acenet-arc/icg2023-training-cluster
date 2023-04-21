@@ -1,0 +1,4 @@
+- To start make a p4-6 and a p8-12 node so they can see which works
+- Still need to know how much storage space (go with defaults)
+- No requirements for login node, just use default.
+- use this folder name for cluster name
